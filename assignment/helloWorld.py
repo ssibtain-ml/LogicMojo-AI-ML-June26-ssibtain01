@@ -1,4 +1,4 @@
-print("hello")
+"""print("hello")
 
 a = int(input("Rent: "))
 b = int(input("Groceries: "))
@@ -19,3 +19,46 @@ elif intScore > 70 and intScore <= 100:
     print("excellent")
 else:
     print("invalid input")
+"""
+
+# x = "global"
+
+# def example() :
+#     y= "local"
+#     print(x)
+#     print(y)
+
+# example()    
+# print(x)
+
+
+x = 1
+
+def checkGlobalVar ():
+    y = 2
+    x = y
+    print(x)
+    
+    
+
+checkGlobalVar()
+print(x)
+
+
+# a = 15 # global variable
+
+# # function to change a global value
+# def change():
+#     # increment value of a by 5
+#     b = a + 5
+#     a = b
+#     print(a)
+
+
+# change()
+
+
+def greet(name: str) -> str:
+    return f"Hellow, {name} !"
+
+greet(1)
